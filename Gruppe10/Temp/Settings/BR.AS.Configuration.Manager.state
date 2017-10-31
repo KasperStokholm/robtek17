@@ -8,8 +8,12 @@
       <Column Index="2" Width="125" Position="2" />
       <Column Index="3" Width="0" Position="3" />
     </Columns>
-    <ExpandedNodes />
-    <SelectedNodes />
+    <ExpandedNodes>
+      <ExpandedNode Row="0" />
+    </ExpandedNodes>
+    <SelectedNodes>
+      <SelectedNode Row="0" />
+    </SelectedNodes>
     <ZoomIndices />
   </TreeView>
 </State>

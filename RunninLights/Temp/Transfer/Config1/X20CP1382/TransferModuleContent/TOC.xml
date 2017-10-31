@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toc Version="2" MinorVersion="0">
+	<Application>
+		<Class Name="Os">
+			<File Name="BRLcReg.dll" HashValue="5CE306FC22306CD6BCD7E40C2D6CC31F" ProjectDependent="1" IgnoreDifference="0" />
+			<Folder Name="Brm" ProjectDependent="1" IgnoreDifference="0">
+				<File Name="@cfAR000.br" HashValue="7251A6C38F51F42B68C1F55F91D21FC1" ProjectDependent="1" IgnoreDifference="0" />
+				<File Name="@sbAR000.br" HashValue="9BA3BB314A805E40BFBBB78C8A50DE11" ProjectDependent="1" IgnoreDifference="0" />
+			</Folder>
+			<File Name="InaFrms.dll" HashValue="BCBB8AB4B7168E2BB538CF86E5B742A3" ProjectDependent="1" IgnoreDifference="0" />
+			<Folder Name="System" ProjectDependent="1" IgnoreDifference="0">
+				<Folder Name="BASE" ProjectDependent="1" IgnoreDifference="0">
+					<Folder Name="COMPONENTS" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="ArLcTextP.br" HashValue="D935C747A70E31E711FE8F9FC98D53BA" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="unitsys.br" HashValue="89CA005A80005CAE78ACC113FBD49928" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+					<Folder Name="HWD" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="AsHwdSimulation.xml.gz" HashValue="78C0FF63470DD512802E0691E9DD1144" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="AsHwdhw_upl.xml.gz" HashValue="7A7653647A414D9DB8D9FC53AC59DDDA" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+				</Folder>
+				<Folder Name="SDM" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="arsdm.tar.gz" HashValue="DF16B7958B87DDA06C72B78A7510B480" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="TOC" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="ftoc.xml" HashValue="F83AEC703141D083AB19580424BF781A" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="WEBSERV" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="webserv.br" HashValue="86C4722A344105CBD4A2A21159FEC276" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+			</Folder>
+			<File Name="arsimproxy.dll" HashValue="82529AB36C6DC8CF6EBD2979507AE891" ProjectDependent="1" IgnoreDifference="0" />
+		</Class>
+		<Memory Name="SYSROM">
+			<Module Name="::$$sysconf" Type="129" Size="67700" Modified="2017-10-25 12:39:12" Version="4.33" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="3518376" Modified="2017-10-25 12:39:24" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arconfig" Type="132" Size="4928" Modified="2017-10-25 12:39:13" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::asfw" Type="67" Size="275960" Modified="2017-10-25 12:39:11" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwd" Type="67" Size="4892" Modified="2017-10-25 12:39:11" Version="1.00" ProjectDependent="1" Reboot="1" />
+		</Memory>
+		<Memory Name="USERROM">
+			<Module Name="::AsIecCon" Type="18" Size="17500" Modified="2017-05-29 20:18:34" Version="4.33" ProjectDependent="1" />
+			<Module Name="::DataObj" Type="18" Size="20340" Modified="2017-05-29 20:34:37" Version="4.33" ProjectDependent="1" />
+			<Module Name="::FileIO" Type="18" Size="24644" Modified="2017-05-29 20:37:30" Version="4.33" ProjectDependent="1" />
+			<Module Name="::Role" Type="136" Size="760" Modified="2017-10-25 12:39:17" Version="1.00" ProjectDependent="1" />
+			<Module Name="::RunningLig" Type="17" Size="8300" Modified="2017-10-25 15:24:05" Version="1.00" ProjectDependent="1" />
+			<Module Name="::User" Type="136" Size="656" Modified="2017-10-25 12:39:17" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visual" Type="18" Size="1404" Modified="2017-10-25 15:24:09" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visual01" Type="18" Size="39676" Modified="2017-10-25 15:24:08" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visual02" Type="18" Size="2612" Modified="2017-10-25 15:18:52" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visual03" Type="18" Size="2273252" Modified="2017-10-25 15:18:52" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arial" Type="18" Size="897208" Modified="2017-10-25 12:42:20" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arialbd" Type="18" Size="858816" Modified="2017-10-25 12:42:20" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ashwac" Type="136" Size="212" Modified="2017-10-25 12:39:15" Version="1.00" ProjectDependent="1" />
+			<Module Name="::astime" Type="18" Size="22856" Modified="2017-05-29 20:31:04" Version="4.33" ProjectDependent="1" />
+			<Module Name="::iomap" Type="50" Size="11164" Modified="2017-10-25 12:39:17" Version="1.00" ProjectDependent="1" />
+			<Module Name="::runtime" Type="18" Size="29404" Modified="2017-05-29 20:38:51" Version="4.33" ProjectDependent="1" />
+			<Module Name="::standard" Type="18" Size="11584" Modified="2017-05-29 20:39:16" Version="4.33" ProjectDependent="1" />
+			<Module Name="::udbdef" Type="210" Size="70264" Modified="2014-04-10 10:00:00" Version="0.01" ProjectDependent="1" />
+			<Module Name="::vcalarm" Type="18" Size="97832" Modified="2017-04-11 13:20:38" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcbclass" Type="18" Size="181216" Modified="2017-04-11 13:23:28" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vccbtn" Type="18" Size="17016" Modified="2017-04-11 13:21:50" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vccovl" Type="18" Size="1888" Modified="2017-04-11 13:22:24" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vccshape" Type="18" Size="4988" Modified="2017-04-11 13:22:09" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcctext" Type="18" Size="7516" Modified="2017-04-11 13:22:08" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcdsint" Type="18" Size="7264" Modified="2017-04-11 13:21:38" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcdsloc" Type="18" Size="37368" Modified="2017-04-11 13:21:42" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcfile" Type="18" Size="6544" Modified="2017-04-11 13:19:43" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcfntttf" Type="18" Size="276176" Modified="2017-04-11 13:24:29" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcgclass" Type="18" Size="244064" Modified="2017-04-11 13:24:04" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcmgr" Type="18" Size="42620" Modified="2017-04-11 13:24:09" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcnet" Type="18" Size="12068" Modified="2017-04-11 13:19:42" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcpdsw" Type="18" Size="2632" Modified="2017-04-11 13:20:16" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcpdvnc" Type="18" Size="76356" Modified="2017-04-11 13:20:09" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcpfar00" Type="18" Size="3128" Modified="2017-04-11 13:25:07" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcpkat" Type="18" Size="3952" Modified="2017-04-11 13:20:48" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcresman" Type="18" Size="1555936" Modified="2017-04-11 13:19:39" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcrt" Type="18" Size="75112" Modified="2017-04-11 13:23:39" Version="4.33" ProjectDependent="1" />
+			<Module Name="::vcshared" Type="18" Size="15596" Modified="2017-10-25 15:18:52" Version="1.00" ProjectDependent="1" />
+			<Module Name="::vctcal" Type="18" Size="5388" Modified="2017-04-11 13:22:13" Version="4.33" ProjectDependent="1" />
+		</Memory>
+	</Application>
+</Toc>

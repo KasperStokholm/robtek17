@@ -1,0 +1,1 @@
+RunningLig	"$(AS_CPU_PATH)/RunningLig/Main.st.o" "$(AS_CPU_PATH)/RunningLig/_bur_pvdef.st.o"  -o "$(AS_CPU_PATH)/RunningLig/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs_brelf -nostdlib

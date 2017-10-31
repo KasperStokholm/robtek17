@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="DataSource" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[DataSource]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <UInt32 Name="PVCount">10</UInt32>
+          <UInt32 Name="ImageSize">40</UInt32>
+          <Table Name="Variables" Cols="5">
+            <TableHeader>
+              <Column Name="PVID" />
+              <Column Name="PVType" />
+              <Column Name="PVOffset" />
+              <Column Name="PVDim" />
+              <Column Name="PVName" />
+            </TableHeader>
+            <Group Name="RunningLig:visualTextCounter">
+              <UInt16 Name="ID">0</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">0</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">0</Int32>
+            </Group>
+            <Group Name="RunningLig:visualLight0">
+              <UInt16 Name="ID">1</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">21</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">29</Int32>
+            </Group>
+            <Group Name="RunningLig:visualLight7">
+              <UInt16 Name="ID">2</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">22</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">53</Int32>
+            </Group>
+            <Group Name="RunningLig:visualLight6">
+              <UInt16 Name="ID">3</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">23</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">77</Int32>
+            </Group>
+            <Group Name="RunningLig:visualLight5">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">24</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">101</Int32>
+            </Group>
+            <Group Name="RunningLig:visualLight4">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">25</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">125</Int32>
+            </Group>
+            <Group Name="RunningLig:visualLight3">
+              <UInt16 Name="ID">6</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">26</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">149</Int32>
+            </Group>
+            <Group Name="RunningLig:visualLight2">
+              <UInt16 Name="ID">7</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">27</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">173</Int32>
+            </Group>
+            <Group Name="RunningLig:visualLight1">
+              <UInt16 Name="ID">8</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">28</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">197</Int32>
+            </Group>
+            <Group Name="RunningLig:commandText">
+              <UInt16 Name="ID">9</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">29</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">221</Int32>
+            </Group>
+          </Table>
+          <Binary Name="Name" Encoding="Base64">UnVubmluZ0xpZzp2aXN1YWxUZXh0Q291bnRlcgBSdW5uaW5nTGlnOnZpc3VhbExpZ2h0MABSdW5uaW5nTGlnOnZpc3VhbExpZ2h0NwBSdW5uaW5nTGlnOnZpc3VhbExpZ2h0NgBSdW5uaW5nTGlnOnZpc3VhbExpZ2h0NQBSdW5uaW5nTGlnOnZpc3VhbExpZ2h0NABSdW5uaW5nTGlnOnZpc3VhbExpZ2h0MwBSdW5uaW5nTGlnOnZpc3VhbExpZ2h0MgBSdW5uaW5nTGlnOnZpc3VhbExpZ2h0MQBSdW5uaW5nTGlnOmNvbW1hbmRUZXh0AA==</Binary>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

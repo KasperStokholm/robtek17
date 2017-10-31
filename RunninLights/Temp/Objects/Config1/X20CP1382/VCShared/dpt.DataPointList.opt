@@ -1,0 +1,9 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Users/Kasper/Documents/GitHub/robtek17/RunninLights/Physical/Config1/X20CP1382/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="RunningLig" Source="RunningLights.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

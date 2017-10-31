@@ -1,0 +1,16 @@
+VAR
+	timer : TON;
+	i : USINT;
+	tempText : STRING[20];
+	visualTextCounter : STRING[20];
+	visualLight1 : USINT;
+	visualLight2 : USINT;
+	visualLight3 : USINT;
+	visualLight4 : USINT;
+	visualLight5 : USINT;
+	visualLight6 : USINT;
+	visualLight7 : USINT;
+	visualLight0 : USINT;
+	commandText : STRING[10];
+	input : STRING[100];
+END_VAR

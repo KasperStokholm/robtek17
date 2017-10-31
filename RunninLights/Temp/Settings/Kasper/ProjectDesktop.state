@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio Version=3.0?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Config1"/><ConfigurationFiles ConfigurationName="Config1"><ConfigurationFile Placement="\Logical\RunningLights\Main.st,RunningLights,2,44,0,1,-1,-1,-1,-1,2,24,948,419"/><ConfigurationFile Placement="\Logical\RunningLights\Variables.var,RunningLights,1,44,0,1,-1,-1,-1,-1,2,24,948,419"/><ConfigurationFile Placement="\Logical\VisualSDU\VCObject.vc,,0,44,0,1,-1,-1,-1,-1,2,24,948,419"/><ConfigurationFile Placement="\Virtual\X20CP1382.sw,,1,44,0,1,-1,-1,-1,-1,2,24,948,419"/><ConfigurationFile Placement="\Virtual\X20CP1382.IF2.hw,,1,44,0,1,-1,-1,-1,-1,2,24,948,419"/></ConfigurationFiles></Project>

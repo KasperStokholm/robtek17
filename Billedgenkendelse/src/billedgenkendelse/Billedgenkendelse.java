@@ -5,9 +5,11 @@
  */
 package billedgenkendelse;
 
+import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.net.URL;
+import java.util.Arrays;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -24,12 +26,13 @@ public class Billedgenkendelse {
      */
     public static void main(String[] args) {
 
-        JFrame frame = new JFrame();
+        JFrame pictureFrame = new JFrame();
+        JFrame lineFrame = new JFrame();
         BufferedImage buffImage = null;
-        
+
         //Trying to read image from URL
         try {
-            URL url = new URL("https://i.imgur.com/DqszXEK.png");
+            URL url = new URL("https://ae01.alicdn.com/kf/HTB1BO7uKXXXXXblXVXXxh4dFXXXD/10pcs-lot-Pet-Cat-Kitten-Toys-Super-Q-Rainbow-Toy-Balls-Small-Dog-Cat-Pet-EVA.jpeg_50x50.jpeg");
             buffImage = ImageIO.read(url);
             // File img = new File("C:\\Users\\Madsi\\Pictures\\LineCat.jpg");
             // buffImage = ImageIO.read(img);
@@ -38,28 +41,55 @@ public class Billedgenkendelse {
             e.printStackTrace();
         }
         
-        frame.setSize(buffImage.getHeight(), buffImage.getWidth());
         ImageIcon image = new ImageIcon(buffImage);
-
         JLabel imageLabel = new JLabel(image);
-        frame.add(imageLabel);
-        
-        //Creating panes
-        PaneImage q = new PaneImage(image);
         PaneImage p = new PaneImage(400, 400);
         
-        //Test drawings
-        Drawing g = new Drawing(10, 10, 100, 100);
-        p.addDrawing(g);
+        //Setting size on pictureFrame
+        pictureFrame.setSize(buffImage.getHeight(), buffImage.getWidth());
+        pictureFrame.add(imageLabel);
 
-        Drawing d = new Drawing(340, 140, 100, 100);
-        p.addDrawing(d);
+        int numPixels = buffImage.getWidth() * buffImage.getHeight();
+
+        //Creating RGB-arrays
+        int[] rgbData = new int[numPixels];
+        int counter = 0;
+        for (int i = 0; i < buffImage.getHeight(); i++) {
+            for (int j = 0; j < buffImage.getWidth(); j++) {
+                while (counter < numPixels) {
+                    rgbData[counter] = buffImage.getRGB(i, j);
+                    counter++;
+                }
+            }
+
+        }
+
+        int[][] imageArray = new int[numPixels][3];
+        // creates doule array with length = #pixels in png, containing 3 values (RGB)
+
+        //System.out.println(Arrays.deepToString(arr));                                         
+        // print initial array
+        for (int i = 0; i < numPixels; i++) {
+            // for-loop for storing RBG in array
+            Color c = new Color(rgbData[i]);
+            imageArray[i][0] = c.getRed();
+            imageArray[i][1] = c.getGreen();
+            imageArray[i][2] = c.getBlue();
+        }
         
-        //Set all frames and panes to visible
-        imageLabel.setVisible(true);
-        q.setVisible(true);
-        p.setVisible(true);
+        System.out.println(Arrays.deepToString(imageArray));
+
+        //Test drawings
+        p.addDrawing(10, 10, 100, 100);
+        p.addDrawing(10, 10, 400, 100);
+
+        lineFrame.setSize(400, 400);
+        lineFrame.add(p);
+        
+        //Set all frames to visible
+        pictureFrame.setVisible(true);
+        lineFrame.setVisible(true);
 
     }
-    
+
 }

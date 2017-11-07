@@ -9,6 +9,7 @@ import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Arrays;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
@@ -25,66 +26,50 @@ public class Billedgenkendelse {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
-        JFrame pictureFrame = new JFrame();
-        JFrame lineFrame = new JFrame();
-        BufferedImage buffImage = null;
-
-        //Trying to read image from URL
-        try {
-            URL url = new URL("https://ae01.alicdn.com/kf/HTB1BO7uKXXXXXblXVXXxh4dFXXXD/10pcs-lot-Pet-Cat-Kitten-Toys-Super-Q-Rainbow-Toy-Balls-Small-Dog-Cat-Pet-EVA.jpeg_50x50.jpeg");
-            buffImage = ImageIO.read(url);
-            // File img = new File("C:\\Users\\Madsi\\Pictures\\LineCat.jpg");
-            // buffImage = ImageIO.read(img);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         
-        ImageIcon image = new ImageIcon(buffImage);
-        JLabel imageLabel = new JLabel(image);
-        PaneImage p = new PaneImage(400, 400);
+        ArrayList<Drawing> drawings = new ArrayList();
+        EdgeDetector edge = new EdgeDetector("http://www.pxleyes.com/images/tutorials/ext//4b2375eecb12c.jpg");
+        Color[][] array = edge.getGreyscaleArray();
+        int[][] booleanArray = new int[edge.getBufferedImage().getWidth()][edge.getBufferedImage().getHeight()];
         
-        //Setting size on pictureFrame
-        pictureFrame.setSize(buffImage.getHeight(), buffImage.getWidth());
-        pictureFrame.add(imageLabel);
-
-        int numPixels = buffImage.getWidth() * buffImage.getHeight();
-
-        //Creating RGB-arrays
-        int[] rgbData = new int[numPixels];
-        int counter = 0;
-        for (int i = 0; i < buffImage.getHeight(); i++) {
-            for (int j = 0; j < buffImage.getWidth(); j++) {
-                while (counter < numPixels) {
-                    rgbData[counter] = buffImage.getRGB(i, j);
-                    counter++;
+        
+        for (int i = 0; i < 49; i++) {
+            for (int j = 0; j < 49; j++) {
+                if(array[i][j].getGreen() == 255 && array[i][j].getRed() == 255 && array[i][j].getBlue() == 255){
+                    booleanArray[i][j] = 0;
+                } else{
+                    booleanArray[i][j] = 1;
+                    drawings.add(new Drawing(i, j, i, j));
                 }
             }
-
-        }
-
-        int[][] imageArray = new int[numPixels][3];
-        // creates doule array with length = #pixels in png, containing 3 values (RGB)
-
-        //System.out.println(Arrays.deepToString(arr));                                         
-        // print initial array
-        for (int i = 0; i < numPixels; i++) {
-            // for-loop for storing RBG in array
-            Color c = new Color(rgbData[i]);
-            imageArray[i][0] = c.getRed();
-            imageArray[i][1] = c.getGreen();
-            imageArray[i][2] = c.getBlue();
         }
         
-        System.out.println(Arrays.deepToString(imageArray));
-
-        //Test drawings
-        p.addDrawing(10, 10, 100, 100);
-        p.addDrawing(10, 10, 400, 100);
-
+        
+        
+        System.out.println(Arrays.deepToString(booleanArray));
+        
+        JFrame pictureFrame = new JFrame();
+        JFrame lineFrame = new JFrame();
+        
+        ImageIcon image = new ImageIcon(edge.getBufferedImage());
+        JLabel imageLabel = new JLabel(image);
+        
+        PaneImage p = new PaneImage(400, 400);
         lineFrame.setSize(400, 400);
         lineFrame.add(p);
+        
+        //Setting size on pictureFrame
+        pictureFrame.setSize(edge.getBufferedImage().getHeight(), edge.getBufferedImage().getWidth());
+        pictureFrame.add(imageLabel);
+        
+
+        //Test drawings
+        for(Drawing d : drawings){
+            p.addDrawing(d);
+        }
+       // p.addDrawing(10, 10, 100, 100);
+       // p.addDrawing(10, 10, 400, 100);
+
         
         //Set all frames to visible
         pictureFrame.setVisible(true);

@@ -36,6 +36,11 @@ public class PaneImage extends JPanel {
         this.drawings.add(new Drawing(x, y, x2, y2));
         repaint();
     }
+    
+    public void addDrawing(Drawing d) {
+        this.drawings.add(d);
+        repaint();
+    }
 
     public void paintComponent(Graphics g) {
         for (Drawing d : drawings) {

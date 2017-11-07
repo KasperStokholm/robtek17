@@ -7,9 +7,12 @@
       <Column Index="1" Width="100" Position="1" />
       <Column Index="2" Width="0" Position="2" />
     </Columns>
-    <ExpandedNodes />
+    <ExpandedNodes>
+      <ExpandedNode Row="0" />
+      <ExpandedNode Row="4" />
+    </ExpandedNodes>
     <SelectedNodes>
-      <SelectedNode Row="0" />
+      <SelectedNode Row="4" />
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>

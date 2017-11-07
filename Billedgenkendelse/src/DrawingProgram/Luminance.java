@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package billedgenkendelse;
+package DrawingProgram;
 
 /******************************************************************************
  *  Compilation:  javac Luminance.java

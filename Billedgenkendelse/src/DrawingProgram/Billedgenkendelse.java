@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package billedgenkendelse;
+package DrawingProgram;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
@@ -33,8 +33,8 @@ public class Billedgenkendelse {
         int[][] booleanArray = new int[edge.getBufferedImage().getWidth()][edge.getBufferedImage().getHeight()];
         
         
-        for (int i = 0; i < 49; i++) {
-            for (int j = 0; j < 49; j++) {
+        for (int i = 0; i < booleanArray.length; i++) {
+            for (int j = 0; j < booleanArray[i].length-1; j++) {
                 if(array[i][j].getGreen() == 255 && array[i][j].getRed() == 255 && array[i][j].getBlue() == 255){
                     booleanArray[i][j] = 0;
                 } else{
@@ -43,8 +43,6 @@ public class Billedgenkendelse {
                 }
             }
         }
-        
-        
         
         System.out.println(Arrays.deepToString(booleanArray));
         

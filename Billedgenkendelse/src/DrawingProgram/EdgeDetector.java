@@ -1,4 +1,4 @@
-package billedgenkendelse;
+package DrawingProgram;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;

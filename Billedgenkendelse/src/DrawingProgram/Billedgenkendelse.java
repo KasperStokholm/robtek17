@@ -27,6 +27,12 @@ public class Billedgenkendelse {
      */
     public static void main(String[] args) {
         
+        RobotClient client = new RobotClient("localhost", 11159);
+        
+        if(client.isConnected()){
+            System.out.println("CONNECT");
+        }
+        
         ArrayList<Drawing> drawings = new ArrayList();
         EdgeDetector edge = new EdgeDetector("http://www.pxleyes.com/images/tutorials/ext//4b2375eecb12c.jpg");
         Color[][] array = edge.getGreyscaleArray();

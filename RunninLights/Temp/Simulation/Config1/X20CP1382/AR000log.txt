@@ -1,35 +1,63 @@
 
 
-Wed Nov 01 14:51:04 2017
+Tue Nov 07 13:46:46 2017
 No ARsim registration found!
   Bernecker & Rainer 
 
 
 
-Wed Nov 01 14:51:04 2017
+Tue Nov 07 13:46:46 2017
 COMMAND_COLDSTART
-InstanceName : 01d3531875aae190
+InstanceName : 01d357c678a47020
 
 WorkingPath :
 C:\Users\Kasper\Documents\GitHub\robtek17\RunninLights\Temp\Simulation\Config1\X20CP1382\
 
 
 
-Wed Nov 01 14:51:04 2017
+Tue Nov 07 13:46:46 2017
 COMMAND_COLDSTART
 Version : I4.33
 
 
 
-Wed Nov 01 15:02:25 2017
+Tue Nov 07 13:54:24 2017
 COMMAND_TERMINATE
 
 
-Wed Nov 01 15:02:26 2017
+Tue Nov 07 13:55:27 2017
 
 
-Wed Nov 01 15:02:26 2017
+Tue Nov 07 13:55:27 2017
+COMMAND_COLDSTART
+Version : I4.33
+
+
+
+Tue Nov 07 13:55:30 2017
 COMMAND_TERMINATE
 
 
-Wed Nov 01 15:02:26 2017
+Tue Nov 07 13:56:32 2017
+
+
+Tue Nov 07 13:56:32 2017
+COMMAND_COLDSTART
+Version : I4.33
+
+
+
+Tue Nov 07 13:56:35 2017
+COMMAND_TERMINATE
+
+
+Tue Nov 07 13:57:36 2017
+
+
+Tue Nov 07 13:57:36 2017
+COMMAND_COLDSTART
+Version : I4.33
+
+
+
+Tue Nov 07 13:57:39 2017

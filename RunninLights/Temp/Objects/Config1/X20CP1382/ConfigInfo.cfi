@@ -15,11 +15,11 @@
       Source="RunningLights"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\Kasper\Documents\GitHub\robtek17\RunninLights\Temp\Objects\Config1\X20CP1382\RunningLig\Main.st.var" />
+        Path="C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\Temp\Objects\Config1\X20CP1382\RunningLig\Main.st.var" />
       <File
-        Path="C:\Users\Kasper\Documents\GitHub\robtek17\RunninLights\Logical\RunningLights\Types.typ" />
+        Path="C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\Logical\RunningLights\Types.typ" />
       <File
-        Path="C:\Users\Kasper\Documents\GitHub\robtek17\RunninLights\Logical\RunningLights\Variables.var" />
+        Path="C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\Logical\RunningLights\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

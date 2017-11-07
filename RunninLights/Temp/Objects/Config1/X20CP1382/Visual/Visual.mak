@@ -57,7 +57,7 @@ LIB_LOCAL_OBJ_Visual=$(TEMP_PATH_Visual)/localobj.vca
 # Hardware sources
 PANEL_HW_OBJECT_Visual=$(TEMP_PATH_ROOT_Visual)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visual/dis.Hardware.vco
 PANEL_HW_VCI_Visual=$(TEMP_PATH_ROOT_Visual)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visual/dis.Hardware.vci
-PANEL_HW_SOURCE_Visual=C:/Users/Kasper/Documents/GitHub/robtek17/RunninLights/Physical/Config1/Hardware.hw 
+PANEL_HW_SOURCE_Visual=C:/Users/Mathi/OneDrive/Dokumenter/GitHub/robtek17/RunninLights/Physical/Config1/Hardware.hw 
 DIS_OBJECTS_Visual=$(PANEL_HW_OBJECT_Visual) $(KEYMAP_OBJECTS_Visual)
 
 # KeyMapping flags
@@ -285,27 +285,27 @@ $(VCVK_OBJECTS_Visual): $(VC_LANGUAGES_Visual)
 TPR_OBJECTS_Visual = $(addprefix $(TEMP_PATH_Visual)/tpr., $(notdir $(TPR_SOURCES_Visual:.tpr=.vco)))
 
 $(TEMP_PATH_Visual)/tpr.NumPad.vco: $(AS_PROJECT_PATH)/Logical/VisualSDU/TouchPads/NumPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Kasper/Documents/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Mathi/OneDrive/Dokumenter/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visual)/tpr.AlphaPadQVGA.vco: $(AS_PROJECT_PATH)/Logical/VisualSDU/TouchPads/AlphaPadQVGA.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Kasper/Documents/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Mathi/OneDrive/Dokumenter/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visual)/tpr.AlphaPad.vco: $(AS_PROJECT_PATH)/Logical/VisualSDU/TouchPads/AlphaPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Kasper/Documents/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Mathi/OneDrive/Dokumenter/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visual)/tpr.NavigationPad_ver.vco: $(AS_PROJECT_PATH)/Logical/VisualSDU/TouchPads/NavigationPad_ver.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Kasper/Documents/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Mathi/OneDrive/Dokumenter/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visual)/tpr.NavigationPad_hor.vco: $(AS_PROJECT_PATH)/Logical/VisualSDU/TouchPads/NavigationPad_hor.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Kasper/Documents/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Mathi/OneDrive/Dokumenter/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visual)/tpr.EditPad.vco: $(AS_PROJECT_PATH)/Logical/VisualSDU/TouchPads/EditPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Kasper/Documents/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visual)' $(VCCFLAGS_Visual) -prj 'C:/Users/Mathi/OneDrive/Dokumenter/GitHub/robtek17/RunninLights/Logical/VisualSDU' -p Visual -so $(VC_STATIC_OPTIONS_Visual) -vcr 4330 -sfas
 
 
 #Touch Pads END

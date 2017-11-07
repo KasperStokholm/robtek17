@@ -5,10 +5,10 @@
     <ConnectionParameters>/RT=1000 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /AM=* /PT=11169</ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>C:\Users\Kasper\Documents\GitHub\robtek17\RunninLights\RunninLights.apj</ApjFullFileName>
+    <ApjFullFileName>C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\RunninLights.apj</ApjFullFileName>
     <ProjectName>RunninLights</ProjectName>
     <ActiveConfigurationName>Config1</ActiveConfigurationName>
-    <LicenseDataFolder>C:\Users\Kasper\Documents\GitHub\robtek17\RunninLights\Temp\Objects\Config1\X20CP1382</LicenseDataFolder>
+    <LicenseDataFolder>C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\Temp\Objects\Config1\X20CP1382</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>

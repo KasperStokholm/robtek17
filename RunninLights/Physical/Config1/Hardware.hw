@@ -19,6 +19,7 @@
     <Connection Connector="X3" TargetModule="X3" TargetConnector="SL" />
     <Connector Name="IF2">
       <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="HostName" Value="localhost" />
       <Group ID="Vnc1" />
       <Parameter ID="VncVcObjectName1" Value="Visual" />
       <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />

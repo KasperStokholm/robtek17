@@ -147,7 +147,11 @@
     Path="C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\Logical\RunningLights\Main.st"
     LogicalPath="RunningLights.Main.st"
     Type="File"
+<<<<<<< HEAD
     LastWriteTime="131545323137178608"
+=======
+    LastWriteTime="131534123203039846"
+>>>>>>> 723799a142864ddc36eb8fd5360cd8bba5abef6c
     Private="false" />
   <Object
     Path="C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\Logical\RunningLights\Types.typ"
@@ -181,7 +185,11 @@
     Path="C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
+<<<<<<< HEAD
     LastWriteTime="131545330491669657"
+=======
+    LastWriteTime="131545328269499131"
+>>>>>>> 723799a142864ddc36eb8fd5360cd8bba5abef6c
     Private="false" />
   <Object
     Path="C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\Physical\Config1\Hardware.hwl"

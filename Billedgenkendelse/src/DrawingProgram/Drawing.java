@@ -5,6 +5,7 @@
  */
 package DrawingProgram;
 
+import java.awt.Color;
 import java.awt.Graphics;
 
 /**
@@ -26,6 +27,7 @@ import java.awt.Graphics;
         }
 
         public void paint(Graphics g) {
+            g.setColor(Color.RED);
             g.drawLine(x, y, x2, y2);
         }
 }

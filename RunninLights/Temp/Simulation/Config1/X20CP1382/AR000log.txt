@@ -1,117 +1,35 @@
 
 
-<<<<<<< HEAD
-Tue Nov 07 13:46:54 2017
-=======
-Tue Nov 07 13:46:46 2017
->>>>>>> 723799a142864ddc36eb8fd5360cd8bba5abef6c
+Mon Nov 13 14:29:16 2017
 No ARsim registration found!
   Bernecker & Rainer 
 
 
 
-<<<<<<< HEAD
-Tue Nov 07 13:46:54 2017
+Mon Nov 13 14:29:16 2017
 COMMAND_COLDSTART
-InstanceName : 01d357c67d7f6b40
-=======
-Tue Nov 07 13:46:46 2017
-COMMAND_COLDSTART
-InstanceName : 01d357c678a47020
->>>>>>> 723799a142864ddc36eb8fd5360cd8bba5abef6c
+InstanceName : 01d35c8366e15170
 
 WorkingPath :
 C:\Users\Mathi\OneDrive\Dokumenter\GitHub\robtek17\RunninLights\Temp\Simulation\Config1\X20CP1382\
 
 
 
-<<<<<<< HEAD
-Tue Nov 07 13:46:54 2017
-=======
-Tue Nov 07 13:46:46 2017
->>>>>>> 723799a142864ddc36eb8fd5360cd8bba5abef6c
+Mon Nov 13 14:29:16 2017
 COMMAND_COLDSTART
 Version : I4.33
 
 
 
-<<<<<<< HEAD
-Tue Nov 07 13:58:49 2017
+Mon Nov 13 14:29:59 2017
 COMMAND_TERMINATE
 
 
-Tue Nov 07 13:58:49 2017
+Mon Nov 13 14:30:00 2017
 
 
-Tue Nov 07 13:58:50 2017
-COMMAND_COLDSTART
-Version : I4.33
-
-=======
-Tue Nov 07 13:54:24 2017
+Mon Nov 13 14:30:00 2017
 COMMAND_TERMINATE
 
 
-Tue Nov 07 13:55:27 2017
-
-
-Tue Nov 07 13:55:27 2017
-COMMAND_COLDSTART
-Version : I4.33
-
-
-
-Tue Nov 07 13:55:30 2017
-COMMAND_TERMINATE
-
-
-Tue Nov 07 13:56:32 2017
-
-
-Tue Nov 07 13:56:32 2017
-COMMAND_COLDSTART
-Version : I4.33
-
-
-
-Tue Nov 07 13:56:35 2017
-COMMAND_TERMINATE
-
-
-Tue Nov 07 13:57:36 2017
-
-
-Tue Nov 07 13:57:36 2017
-COMMAND_COLDSTART
-Version : I4.33
-
-
-
-Tue Nov 07 13:57:39 2017
-COMMAND_TERMINATE
-
-
-Tue Nov 07 13:58:41 2017
-
-
-Tue Nov 07 13:58:41 2017
-COMMAND_COLDSTART
-Version : I4.33
-
-
-
-Tue Nov 07 13:58:44 2017
-COMMAND_TERMINATE
-
-
-Tue Nov 07 13:59:45 2017
-
-
-Tue Nov 07 13:59:46 2017
-COMMAND_COLDSTART
-Version : I4.33
-
-
-
-Tue Nov 07 13:59:52 2017
->>>>>>> 723799a142864ddc36eb8fd5360cd8bba5abef6c
+Mon Nov 13 14:30:00 2017

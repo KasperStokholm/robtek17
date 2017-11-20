@@ -1,0 +1,18 @@
+VAR
+	commandText : STRING[20];
+	i : USINT;
+	input : STRING[40000];
+	stepCount : USINT;
+	step_timer : TON;
+	test : USINT;
+	timer : TON;
+	x_dir : BOOL;
+	x_en : BOOL;
+	x_step : BOOL;
+	y_dir : BOOL;
+	y_en : BOOL;
+	y_step : BOOL;
+	z_dir : BOOL;
+	z_en : BOOL;
+	z_step : BOOL;
+END_VAR

@@ -6,6 +6,7 @@
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
     <Task Name="RunningLig" Source="RunningLights.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="DrawingRob" Source="DrawingRobot.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <VcDataObjects>
     <VcDataObject Name="Visual" Source="VisualSDU.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />

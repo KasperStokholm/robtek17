@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Test 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                      go                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                               stepCount                                    USINT    0 "                                                               0"    0    5    1   10    0    0         
+                                  x_step                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
+                                  y_step                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
+                                  z_step                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         

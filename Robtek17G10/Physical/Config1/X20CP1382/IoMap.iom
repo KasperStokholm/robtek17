@@ -1,0 +1,11 @@
+VAR_CONFIG
+	::x_dir AT %QX."X3".DigitalOutput01;
+	::x_en AT %QX."X3".DigitalOutput02;
+	::x_step AT %QX."X3".DigitalOutput10;
+	::y_step AT %QX."X3".DigitalOutput11;
+	::z_step AT %QX."X3".DigitalOutput12;
+	::y_dir AT %QX."X3".DigitalOutput03;
+	::y_en AT %QX."X3".DigitalOutput04;
+	::z_dir AT %QX."X3".DigitalOutput05;
+	::z_en AT %QX."X3".DigitalOutput06;
+END_VAR

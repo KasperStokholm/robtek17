@@ -1,0 +1,44 @@
+
+
+Mon Nov 20 10:42:37 2017
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Mon Nov 20 10:42:37 2017
+COMMAND_COLDSTART
+InstanceName : 01d361e3e6ae7620
+
+WorkingPath :
+C:\Users\vikpo\Desktop\BR\robtek17\Robtek17G10\Temp\Simulation\Config1\X20CP1382\
+
+
+
+Mon Nov 20 10:42:38 2017
+COMMAND_COLDSTART
+Version : I4.33
+
+
+
+Mon Nov 20 10:43:22 2017
+COMMAND_TERMINATE
+
+
+Mon Nov 20 10:43:28 2017
+
+
+Mon Nov 20 10:43:28 2017
+COMMAND_COLDSTART
+
+
+Mon Nov 20 10:44:24 2017
+COMMAND_TERMINATE
+
+
+Mon Nov 20 10:44:24 2017
+
+
+Mon Nov 20 10:44:24 2017
+COMMAND_COLDSTART
+Error CreateProcess

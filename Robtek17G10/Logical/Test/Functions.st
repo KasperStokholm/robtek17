@@ -1,0 +1,6 @@
+FUNCTION stepTimes	
+	FOR b := 1 TO x BY 1 DO
+		u := FALSE;
+	END_FOR	
+
+END_FUNCTION

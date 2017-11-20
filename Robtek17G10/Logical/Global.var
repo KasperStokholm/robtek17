@@ -1,0 +1,12 @@
+VAR
+	x_en : BOOL;
+	x_dir : BOOL;
+	x_step : BOOL;
+	y_en : BOOL;
+	y_dir : BOOL;
+	y_step : BOOL;
+	z_en : BOOL;
+	z_dir : BOOL;
+	z_step : BOOL;
+	stepCount : USINT;
+END_VAR

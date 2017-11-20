@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio Version=3.0?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Config1"/><ConfigurationFiles xmlns="" ConfigurationName="Config1"><ConfigurationFile Placement="\Logical\RunningLights\Main.st,RunningLights,2,44,0,1,-1,-1,-1,-1,2,24,1051,437"/><ConfigurationFile Placement="\Logical\DrawingRobot\Main.st,DrawingRobot,2,44,0,1,-1,-1,-1,-1,2,24,1051,437"/><ConfigurationFile Placement="\Logical\DrawingRobot\Types.typ,DrawingRobot,1,44,0,1,-1,-1,-1,-1,2,24,1051,437"/><ConfigurationFile Placement="\Logical\DrawingRobot\Variables.var,DrawingRobot,1,44,0,1,-1,-1,-1,-1,2,24,1051,437"/></ConfigurationFiles></Project>

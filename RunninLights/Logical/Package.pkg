@@ -7,5 +7,6 @@
     <Object Type="Package" Description="Global libraries">Libraries</Object>
     <Object Type="Program" Language="IEC">RunningLights</Object>
     <Object Type="DataObject" Language="Vc" Description="640x480 (VGA)">VisualSDU</Object>
+    <Object Type="Program" Language="IEC">DrawingRobot</Object>
   </Objects>
 </Package>

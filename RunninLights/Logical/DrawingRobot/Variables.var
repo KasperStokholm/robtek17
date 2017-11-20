@@ -1,0 +1,17 @@
+VAR
+	timer : TON;
+	commandText : STRING[5];
+	input : STRING[40000];
+	test : USINT;
+	i : USINT;
+	STEP1 : BOOL;
+	STEP2 : BOOL;
+	STEP3 : BOOL;
+	DIR1 : BOOL;
+	DIR2 : BOOL;
+	DIR3 : BOOL;
+	EN1 : BOOL;
+	EN2 : BOOL;
+	EN3 : BOOL;
+	timerSharpener : TON;
+END_VAR

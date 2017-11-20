@@ -49,11 +49,11 @@ PROGRAM _CYCLIC
 					7 :
 						visualLight6 := 1;
 					8 :
-						visualLight7 := 1;
+						visualLight7 := 1;b
 					
 				END_CASE
 			
-			ELSIF(MID(input, i, 1 ) = 'K') THEN
+			ELSIF(MID(input, i, l ) = 'K') THEN
 				//Keep old values
 			ELSIF(MID(input, i, 1 ) = 'Q') THEN
 				//Quit

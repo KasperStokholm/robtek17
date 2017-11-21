@@ -1,11 +1,11 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=15 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=1 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                             commandText                               STRING[20]    0 "                                                             'D'"    0    9   21    1    1    0         
-                                       i                                    USINT    0 "                                                              20"    0    5    1   10    1    0         
+                             commandText                               STRING[20]    0 "                                                             'M'"    0    9   21    1    1    0         
+                                       i                                    USINT    0 "                                                               2"    0    5    1   10    1    0         
                                    input                            STRING[40000]    0 "'MDUMMMMMDUMMMMMDUMDUMDUMDUMDUMMMMMMMMMMMMMMDUMDUMDUMDUMDUMDUMDUMDUMDUMDUMDUMDUMMMMMM"    0    9 40001    1    1    0         
-                               stepCount                                    USINT    0 "                                                              11"    0    5    1   10    1    0         
-                                    test                                    USINT    0 "                                                               3"    0    5    1   10    1    0         
+                               stepCount                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
+                                    test                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
                                    timer                                      TON    0 "                                                               *"    0   24    1    0    1    0         
                                       IN                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
                                       PT                                     TIME    0 "                                                               *"    1   12    1    1    0    0         
@@ -16,7 +16,7 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index
                                  Restart                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
                                    x_dir                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
                                     x_en                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
-                                  x_step                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                  x_step                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
                                    y_dir                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
                                     y_en                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
                                   y_step                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
@@ -25,9 +25,9 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index
                                   z_step                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
                               step_timer                                      TON    0 "                                                               *"    0   24    1    0    1    1         
                                       IN                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                      PT                                     TIME    0 "                                                               *"    1   12    1    1    0    0         
-                                       Q                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
-                                      ET                                     TIME    0 "                                                               *"    1   12    1    1    0    0         
-                               StartTime                                     TIME    0 "                                                               *"    1   12    1    1    0    0         
-                                       M                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
-                                 Restart                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                      PT                                     TIME    0 "                                                         T#100ms"    1   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                           T#0ms"    1   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                                           T#0ms"    1   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Restart                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         

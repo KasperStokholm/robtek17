@@ -4,7 +4,20 @@
   <TaskClass
     Name="Cyclic#1" />
   <TaskClass
-    Name="Cyclic#2" />
+    Name="Cyclic#2">
+    <Task
+      Name="Program"
+      Disable="false"
+      Source="Program"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\vikpo\Desktop\BR\robtek17\RobotVirkNu\Temp\Objects\Config1\X20CP1382\Program\Main.st.var" />
+      <File
+        Path="C:\Users\vikpo\Desktop\BR\robtek17\RobotVirkNu\Logical\Program\Types.typ" />
+      <File
+        Path="C:\Users\vikpo\Desktop\BR\robtek17\RobotVirkNu\Logical\Program\Variables.var" />
+    </Task>
+  </TaskClass>
   <TaskClass
     Name="Cyclic#3" />
   <TaskClass
@@ -12,20 +25,7 @@
   <TaskClass
     Name="Cyclic#5" />
   <TaskClass
-    Name="Cyclic#6">
-    <Task
-      Name="Program"
-      Disable="false"
-      Source="Program"
-      Language="IEC">
-      <InternalFile
-        Path="C:\projects\RobotVirkNu\Temp\Objects\Config1\X20CP1382\Program\Main.st.var" />
-      <File
-        Path="C:\projects\RobotVirkNu\Logical\Program\Types.typ" />
-      <File
-        Path="C:\projects\RobotVirkNu\Logical\Program\Variables.var" />
-    </Task>
-  </TaskClass>
+    Name="Cyclic#6" />
   <TaskClass
     Name="Cyclic#7" />
   <TaskClass

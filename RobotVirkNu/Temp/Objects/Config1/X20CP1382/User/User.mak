@@ -1,5 +1,5 @@
-UnmarkedObjectFolder := C:/projects/RobotVirkNu/Physical/Config1/X20CP1382/AccessAndSecurity/UserRoleSystem
-MarkedObjectFolder := C:/projects/RobotVirkNu/Physical/Config1/X20CP1382/AccessAndSecurity/UserRoleSystem
+UnmarkedObjectFolder := C:/Users/vikpo/Desktop/BR/robtek17/RobotVirkNu/Physical/Config1/X20CP1382/AccessAndSecurity/UserRoleSystem
+MarkedObjectFolder := C:/Users/vikpo/Desktop/BR/robtek17/RobotVirkNu/Physical/Config1/X20CP1382/AccessAndSecurity/UserRoleSystem
 
 $(AS_CPU_PATH)/User.br: \
 	$(AS_PROJECT_CPU_PATH)/AccessAndSecurity/UserRoleSystem/User.user \

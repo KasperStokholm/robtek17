@@ -33,14 +33,17 @@ PROGRAM _CYCLIC
 			commandText := MID(input, 1, i);
 			i := i + 1;
 		
-			IF commandText = 'M' THEN
+			WHILE commandText = 'M' AND timer.Q DO
 				x_dir := TRUE;
 				y_step := FALSE;
 				z_step := FALSE;
-				FOR stepCount := 0 TO 10 BY 1 DO
+				
+				IF x_step = FALSE THEN
 					x_step := TRUE;
+				ELSE
 					x_step := FALSE;
-				END_FOR
+				END_IF
+				
 				
 //				IF stepCount < 100 THEN
 //					IF x_step = FALSE THEN
@@ -57,22 +60,22 @@ PROGRAM _CYCLIC
 				
 					
 					
-				//Code to move
-			ELSIF(MID(input, 1, i) = 'D') THEN
-				test := 2;
-				//Code to make the robot move down
-			ELSIF(MID(input, 1, i) = 'U') THEN
-				test := 3;
-				//Code to make the robot move up
-			ELSIF(MID(input, 1, i) = 'N') THEN
-				test := 4;
-				//Code to make the robot go to the next line
-			ELSIF(MID(input, 1, i) = 'S') THEN
-				test := 5;
-				//Code to make the robot go to the sharpener
-				
+//				//Code to move
+//			ELSIF(MID(input, 1, i) = 'D') THEN
+//				test := 2;
+//				//Code to make the robot move down
+//			ELSIF(MID(input, 1, i) = 'U') THEN
+//				test := 3;
+//				//Code to make the robot move up
+//			ELSIF(MID(input, 1, i) = 'N') THEN
+//				test := 4;
+//				//Code to make the robot go to the next line
+//			ELSIF(MID(input, 1, i) = 'S') THEN
+//				test := 5;
+//				//Code to make the robot go to the sharpener
+				//				
+			END_WHILE
 			END_IF
-		END_IF
 		timer.IN := FALSE;
 	END_IF
 	

@@ -1,35 +1,37 @@
 
 
-Mon Nov 20 13:47:22 2017
+Mon Nov 20 14:53:34 2017
 No ARsim registration found!
   Bernecker & Rainer 
 
 
 
-Mon Nov 20 13:47:22 2017
+Mon Nov 20 14:53:34 2017
 COMMAND_COLDSTART
-InstanceName : 01d361fdb5d2fd40
+InstanceName : 01d36206f51905e0
 
 WorkingPath :
-C:\projects\RobotVirkNu\Temp\Simulation\Config1\X20CP1382\
+C:\Users\vikpo\Desktop\BR\robtek17\RobotVirkNu\Temp\Simulation\Config1\X20CP1382\
 
 
 
-Mon Nov 20 13:47:22 2017
+Mon Nov 20 14:53:34 2017
 COMMAND_COLDSTART
 Version : I4.33
 
 
 
-Mon Nov 20 13:48:40 2017
+Mon Nov 20 14:59:22 2017
 COMMAND_TERMINATE
 
 
-Mon Nov 20 13:48:41 2017
+Mon Nov 20 14:59:22 2017
 
 
-Mon Nov 20 13:48:41 2017
-COMMAND_TERMINATE
+Mon Nov 20 14:59:22 2017
+COMMAND_COLDSTART
+Version : I4.33
 
 
-Mon Nov 20 13:48:41 2017
+
+Mon Nov 20 14:59:39 2017
